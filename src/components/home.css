@@ -1,0 +1,401 @@
+.Banner {
+  width: 100%;
+  height: 100%;
+  background: url("../CardImage/shape-24.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.HomeHead {
+  margin: 130px 80px;
+  width: 500px;
+}
+.HomeHead h1 {
+  font-size: 50px;
+}
+.HomeHead p {
+  font-size: 18px;
+  margin: 30px 0;
+  line-height: 30px;
+}
+.HomeHead button {
+  margin: 0px 16px 0px 0px;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 15px 34px;
+  background-color: #27d160;
+}
+.HomeHead button a {
+  color: #fff;
+}
+.HomeHead button a:hover {
+  color: #172746;
+}
+.home_img {
+  position: relative;
+  animation-name: rightMovement;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+  margin-top: 150px;
+}
+@keyframes rightMovement {
+  from {
+    top: 0;
+    bottom: 0;
+  }
+  to {
+    top: 70px;
+    bottom: 100px;
+  }
+}
+.second_section {
+  width: 100%;
+  padding: 145px 0 50px;
+  background-color: #f2f9ff;
+  height: 100%;
+}
+.Card_Heading {
+  /* height: 110px;
+  width: 450px;
+  text-align: center;
+  margin-left: 450px; */
+  display: flex;
+  justify-content: center;
+}
+.Cart {
+  color: #898c8f;
+  margin: 100px 0;
+}
+.cart_row {
+  gap: 50px;
+}
+.cart_img {
+  border: 1px solid #898c8f;
+}
+.cart_img img {
+  position: relative;
+  animation-name: rightMovement1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate-reverse;
+}
+@keyframes rightMovement1 {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 0;
+    left: 250px;
+  }
+}
+.Stars {
+  color: rgb(164, 164, 25);
+  display: flex;
+  margin-left: -28px;
+  gap: 0.5rem;
+}
+.StarsHead {
+  display: flex;
+  gap: 0.7rem;
+}
+.StarsHead a {
+  font-size: 15px;
+  color: #848484;
+}
+.btn1 {
+  margin-top: 15px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 10px 34px;
+  background-color: #27d160;
+  margin-bottom: 30px;
+}
+.btn1 a {
+  color: #fff;
+}
+.btn1 a:hover {
+  color: #172746;
+}
+.cart_heading h1,
+h5 {
+  color: #061a3a;
+  margin-bottom: 20px;
+}
+.detail {
+  margin-bottom: 20px;
+  color: #808080;
+}
+.cartType p {
+  color: #848484;
+  margin: 5px 0;
+}
+.socialMedia {
+  margin: 19px 0 0;
+  display: flex;
+  color: #061a3a;
+}
+.social-links {
+  display: flex;
+  margin-top: 5px;
+  gap: 20px;
+  color: #898c8f;
+}
+.products {
+  margin: 50px 0;
+}
+.products h1 {
+  color: #061a3a;
+}
+.comment {
+  margin-top: -80px;
+  font-size: 34px;
+}
+.form-control {
+  padding: 10px 20px;
+  margin: 30px 0;
+}
+.textarea {
+  height: 150px;
+}
+.inputText {
+  height: 54px;
+  width: 520px;
+}
+.btn {
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 15px 34px;
+  background-color: #27d160;
+}
+.bnt:hover {
+  color: #172746;
+}
+.CommentSection {
+  margin-top: -50px;
+}
+.CommentSection h1 {
+  color: #061a3a;
+}
+.Govt {
+  height: 80vh;
+}
+.GovtHeading h2 {
+  margin: 50px 0;
+  color: #061a3a;
+  height: 90px;
+  font-size: 32px;
+  text-align: center;
+}
+.GovtHeading span {
+  display: block;
+}
+.Choice {
+  width: 100%;
+  height: 100%;
+  background: url("../CardImage//shape-26.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.choiceHead h2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 60px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+.card2 {
+  background: none;
+}
+.card i {
+  margin-top: 10px;
+  font-size: 60px;
+  color: #27d160;
+}
+.cardBody {
+  color: #ffffff;
+}
+.cardBody h6 {
+  margin: 20px 0;
+}
+.cardBody p {
+  color: #ffffffb3;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.healthyLife {
+  width: 100%;
+  height: 100%;
+  background: url("../CardImage/shape-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px 0;
+}
+.healthyLife img {
+  width: 450px;
+  height: 500px;
+}
+.HealthHead {
+  margin-left: 40px;
+}
+.HealthHead h1 {
+  color: #061a3a;
+  font-size: 40px;
+}
+.HealthHead p {
+  line-height: 30px;
+  margin: 30px 0;
+  color: #808080;
+}
+.deliveryBox {
+  width: 100%;
+  height: 100%;
+  background: url("../CardImage/shape-26.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deliveryBox img {
+  margin-left: -80px;
+}
+.deliveryHeading {
+  margin-left: 80px;
+  margin-top: 150px;
+}
+.deliveryBox h1 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.deliveryBox p {
+  margin: 20px 0;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.deliveryHeading i {
+  color: #ffffff;
+}
+.deliveryHeading li {
+  margin: 15px 0;
+}
+.deliveryList span {
+  font-weight: 500;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  .home_img img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 980px) {
+  .HomeHead {
+    width: 100%;
+    text-align: center;
+    display: inline;
+  }
+  .HomeHead button {
+    padding: 5px 10px;
+    display: flex;
+    align-self: center;
+  }
+  .CommentRow input {
+    width: 200px;
+  }
+  .CommentRow textarea {
+    width: 200px;
+  }
+  .home_img img {
+    position: relative;
+    animation-name: rightMovement1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes rightMovement1 {
+    from {
+      top: 0;
+      bottom: 0;
+    }
+    to {
+      top: 30px;
+      bottom: 10px;
+    }
+  }
+  .cart_img img {
+    position: relative;
+    animation-name: rightMovement1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes rightMovement1 {
+    from {
+      top: 0;
+      left: 0;
+    }
+    to {
+      top: 10px;
+      left: 0;
+    }
+  }
+
+  .home_img img {
+    margin-top: -140px;
+    width: 100%;
+  }
+  .comment {
+    margin: 15px 0;
+  }
+  .Govt {
+    height: 100%;
+  }
+  .Card_Heading {
+    text-align: center;
+  }
+
+  .inputText {
+    width: 300px;
+  }
+  .deliveryBox {
+    width: 100%;
+  }
+  .deliveryBox img{
+    width: 100%;
+    height: 480px;
+  }
+
+  .deliveryHeading {
+    margin-top: 100px;
+  }
+  .deliveryHeading {
+    margin: 40px 0;
+  }
+  .deliveryBox img {
+    width: 200px;
+    height: 400px;
+    margin: 30px 0;
+  }
+  .LocationBox {
+    width: 100%;
+  }
+  .LocationBox i {
+    display: none;
+  }
+  .healthyLife img {
+    width: 100%;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,88 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.Error {
+  height: 100%;
+}
+.Error_Section h2 {
+  margin: 0px 0px 20px;
+  font-size: 200px;
+  color: #001a56;
+}
+.Error_Section p {
+  margin: 0px 0px 67px;
+  font-size: 30px;
+  color: #898c8f;
+}
+.Error_Section {
+  text-align: center;
+  padding: 150px 320px;
+}
+.Error_Section a {
+  color: #ffffff;
+}
+.WaterSpan {
+  font-weight: 700;
+  color: darkblue;
+}
+.CardSpan {
+  font-weight: 700;
+  color: #5256ceec;
+}
+.Scroll button {
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: -8rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 100%;
+  background-color: #27d160;
+  cursor: pointer;
+}
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f2f9ff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #27d160;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+@media (max-width: 980px) {
+  .Error_Section {
+    width: 100%;
+    padding: 20px;
+  }
+  .Error_Section h1 {
+    font-size: 30px;
+  }
+  .Error_Section p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+}
